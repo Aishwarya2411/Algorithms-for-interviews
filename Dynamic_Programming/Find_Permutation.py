@@ -16,7 +16,7 @@ class Solution:
                         res.append(stack.pop())
          
          res.append(len(s)+1)     """appending the last element"""
-         while stack:             """If the last entry on the s is "D",                                         empting the stack here will sort the                                       last 2 elements"""
+         while stack:             """If the last entry on the s is "D", empting the stack here will sort the last 2 elements"""
                 
                 res.append(stack.pop())
                 
